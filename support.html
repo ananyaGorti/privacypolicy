@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cognicaps — Support</title>
+  <meta name="description" content="Support, FAQs, and contact information for [APP NAME]." />
+  <meta property="og:title" content="[APP NAME] — Support" />
+  <meta property="og:description" content="Get help, read FAQs, and contact support for [APP NAME]." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #f6f8fa;
+      --text: #111;
+      --muted: #555;
+      --brand: #0a66c2;
+      --border: #e5e7eb;
+      --focus: #ffbf47;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0d10;
+        --card: #12161a;
+        --text: #f2f2f2;
+        --muted: #b7bec7;
+        --brand: #66a7ff;
+        --border: #1f242a;
+        --focus: #ffd166;
+      }
+    }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 920px; margin: 0 auto; padding: 24px; }
+    header { padding: 24px 0 8px; }
+    h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 40px); }
+    .sub { color: var(--muted); margin: 0 0 16px; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 24px; }
+    nav a {
+      text-decoration: none; color: var(--brand); background: var(--card);
+      border: 1px solid var(--border); padding: 8px 12px; border-radius: 8px;
+    }
+    section {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px; margin: 18px 0;
+    }
+    h2 { margin-top: 0; }
+    ul, ol { padding-left: 20px; }
+    a { color: var(--brand); }
+    .muted { color: var(--muted); }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: #00000010; padding: 0 6px; border-radius: 6px; }
+    .pill {
+      display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px;
+      background: var(--bg); border: 1px solid var(--border); color: var(--muted);
+    }
+    footer { padding: 24px 0 40px; color: var(--muted); }
+    .grid { display: grid; gap: 14px; }
+    @media (min-width: 720px) {
+      .grid.two { grid-template-columns: 1fr 1fr; }
+    }
+    /* Skip link */
+    .skip { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+    .skip:focus { position: static; width: auto; height: auto; padding: 8px; background: var(--focus); color: #000; border-radius: 6px; }
+    /* Focus outlines */
+    :focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="container">
+    <header role="banner">
+      <h1>Cognicaps Support</h1>
+      <p class="sub">Help, FAQs, and contact information for <strong>Cognicaps</strong>.</p>
+      <nav aria-label="Section navigation">
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#policies">Policies</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact Support</h2>
+        <p>If you need help, email us—most questions get a reply within 1–2 business days.</p>
+        <p>
+          <a class="pill" href="mailto:terrion.services@gmail.com?subject=[APP%20NAME]%20Support%20Request">terrion.services@gmail.com</a>
+        </p>
+        <p class="muted">Please include your device model, iOS version, and a brief description of the issue.</p>
+      </section>
+
+      <section id="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Frequently Asked Questions</h2>
+        <div class="grid two">
+          <div>
+            <h3>How often is content updated?</h3>
+            <p>New AI news digests are published monthly.</p>
+          </div>
+          <div>
+            <h3>Can I bookmark articles?</h3>
+            <p>Yes. Tap the <span class="kbd">bookmark</span> icon on any article to save it and find it later in <em>Bookmarks</em>.</p>
+          </div>
+          <div>
+            <h3>How do I share an article?</h3>
+            <p>Open an article and use the <em>Share</em> button to send it with your preferred apps.</p>
+          </div>
+          <div>
+            <h3>Is there offline reading?</h3>
+            <p>Yes. Saved digests and bookmarked articles are available without an internet connection.</p>
+          </div>
+          <div>
+            <h3>Can I search by keyword?</h3>
+            <p>Yes. Use the <em>Search</em> tab to find articles by title, summary, category, or content.</p>
+          </div>
+          <div>
+            <h3>Accessibility features?</h3>
+            <p>Adjust text size, use system Dark Mode, and VoiceOver is supported throughout the app.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="troubleshooting" aria-labelledby="troubleshooting-title">
+        <h2 id="troubleshooting-title">Troubleshooting</h2>
+        <ol>
+          <li>Check your internet connection (Wi-Fi or cellular).</li>
+          <li>Pull to refresh on the <em>Magazines</em> list.</li>
+          <li>Make sure you’re on the latest app version from the App Store.</li>
+          <li>Restart your device.</li>
+          <li>Reinstall the app (your bookmarks are stored on-device).</li>
+        </ol>
+        <p>If issues continue, email <a href="mailto:terrion.services@gmail.com?subject=[APP%20NAME]%20Bug%20Report">terrion.services@gmail.com</a> with screenshots if possible.</p>
+      </section>
+
+      <section id="policies" aria-labelledby="policies-title">
+        <h2 id="policies-title">Policies & Legal</h2>
+        <ul>
+          <li><a href="PRIVACY_POLICY_URL" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="TERMS_OF_SERVICE_URL" target="_blank" rel="noopener">Terms of Service</a></li>
+          <li><a href="mailto:terrion.services@gmail.com?subject=[APP%20NAME]%20Content%20Attribution%20Inquiry">Content Attribution or Takedown</a></li>
+          <li><a href="mailto:terrion.services@gmail.com?subject=[APP%20NAME]%20Data%20Request">Data or Privacy Request</a></li>
+        </ul>
+        <p class="muted">We summarize publicly available AI news and link back to original sources. If you’re a rights holder and have concerns, contact us.</p>
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p><strong>App:</strong> Cognicaps</p>
+        <p><strong>Version:</strong> 1.0.0</p>
+        <p><strong>Last updated:</strong> <span id="last-updated">August 17, 2025</span></p>
+        <p class="muted">© <span id="year"></span> Ravi Gorti. All rights reserved.</p>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>Need help? <a href="mailto:terrion.services@gmail.com?subject=[APP%20NAME]%20Support">terrion.services@gmail.com</a></p>
+    </footer>
+  </div>
+
+  <!-- Optional: FAQ structured data to help search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How often is content updated?",
+        "acceptedAnswer": { "@type": "Answer", "text": "New AI news digests are published monthly." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I bookmark articles?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Tap the bookmark icon on any article to save it and find it later in Bookmarks." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there offline reading?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Saved digests and bookmarked articles are available without an internet connection." }
+      }
+    ]
+  }
+  </script>
+  <script>
+    // Auto-fill year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
